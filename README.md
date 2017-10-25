@@ -28,7 +28,7 @@ Para completar tu web **AppLove** hemos creado este repositorio boilerplate (pla
 
 El reto consiste en maquetar la web **AppLove**, este es el resultado final:
 
-![Sin titulo](assets/images/appLove.png) 
+![App Love](assets/images/appLove.png) 
 
 ## Detalles adicionales
 
