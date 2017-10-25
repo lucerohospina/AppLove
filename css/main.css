@@ -71,3 +71,94 @@ a:hover {
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 
+header {
+  background: white;
+  width: 100%;
+  padding: 20px 60px 20px 250px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  position: fixed;
+  top: 0;
+}
+
+header li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+header img {
+  width: 70px;
+  
+  
+}
+
+ul {
+  float: left;
+  margin-right: 50%;
+  margin-top: 2%;
+}
+
+.unknown {
+  background-image: url(../assets/images/bg-home.jpg);
+  background-position: center;
+  height: 535px;
+  width: 100%;
+  background-repeat: no-repeat;
+  display: block;
+  padding: 45px 200px 200px 100px;
+  text-align: center;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 100px;
+}
+
+section.unknown h2 {
+  font-weight: 500;
+  font-size: 23px;
+  margin-top: 50px;
+  margin-left: 80px;
+}
+ 
+section.unknown h1 {
+  font-weight: 700;
+  font-size: 50px;
+  margin: 50px 0px 0px 50px;
+}
+
+section.unknown p {
+  margin: 0px 0px 70px 50px;
+  
+}
+
+section.unknown a {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  background: #2ecc71;
+  padding: 15px 20px;
+  margin: 0px 0px 70px 50px;
+}
+
+.services {
+  background: #f17c72;
+  text-align: center;
+  color: white;
+  width: 1300px;
+  margin: -20px auto 0 auto;
+  padding-top: 20px;
+  
+  
+
+}
+
+.services2 {
+  
+  display: inline-block;
+  margin: 0px 75px;
+  
+}
+
+section.services img {
+    width: 200px;
+
+}
