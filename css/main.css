@@ -71,6 +71,8 @@ a:hover {
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 
+/*HEADER*/
+
 header {
   background: white;
   width: 100%;
@@ -88,8 +90,6 @@ header li {
 
 header img {
   width: 70px;
-  
-  
 }
 
 ul {
@@ -98,11 +98,13 @@ ul {
   margin-top: 2%;
 }
 
-.unknown {
+/*SECTION BACKGROUND IMAGE*/
+
+.back-image {
   background-image: url(../assets/images/bg-home.jpg);
   background-position: center;
-  height: 535px;
-  width: 100%;
+  background-size: 100% 100%;
+  /* width: 100%; */
   background-repeat: no-repeat;
   display: block;
   padding: 45px 200px 200px 100px;
@@ -112,53 +114,101 @@ ul {
   margin-top: 100px;
 }
 
-section.unknown h2 {
+section.back-image h2 {
   font-weight: 500;
   font-size: 23px;
   margin-top: 50px;
   margin-left: 80px;
 }
  
-section.unknown h1 {
+section.back-image h1 {
   font-weight: 700;
   font-size: 50px;
   margin: 50px 0px 0px 50px;
 }
 
-section.unknown p {
+section.back-image p {
   margin: 0px 0px 70px 50px;
-  
 }
 
-section.unknown a {
+section.back-image a {
   color: white;
   font-size: 15px;
   font-weight: 500;
   background: #2ecc71;
   padding: 15px 20px;
   margin: 0px 0px 70px 50px;
+  cursor: pointer;
 }
+
+/*SECTION SERVICES*/
 
 .services {
   background: #f17c72;
   text-align: center;
   color: white;
-  width: 1300px;
+  /* width: 100%; */
   margin: -20px auto 0 auto;
-  padding-top: 20px;
-  
-  
-
+  padding-top: 40px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .services2 {
-  
   display: inline-block;
-  margin: 0px 75px;
-  
+  margin: 70px 75px;
+  line-height: 0px;
+}
+
+.services h2 {
+  font-size: 40px;
+}
+
+.services2 h5 {
+  font-size: 15px;
+}
+
+.services2 h6 {
+  font-size: 12px; 
 }
 
 section.services img {
     width: 200px;
+}
 
+/*SECTION WORK*/
+/*WORK*/
+
+.work {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.work img {
+  margin-top: 30px;
+  width: 60%;
+}
+
+.work h2 {
+  font-size: 40px;
+}
+
+/*FIGURES*/
+
+.projects {
+  text-align: center;
+}
+
+.projects img {
+  width: 20%;
+}
+
+/*FOOTER*/
+
+footer {
+  background-color: #373B47;
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
 }
