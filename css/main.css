@@ -196,7 +196,13 @@ section.services img {
 /*FIGURES*/
 
 .projects {
+  font-family: 'Raleway', sans-serif;
   text-align: center;
+  /* overflow: auto; */
+}
+
+.projects figure {
+/* float: left; */
 }
 
 .projects img {
